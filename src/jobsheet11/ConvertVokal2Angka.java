@@ -34,6 +34,9 @@ private static String vocal2Angka(String kalimat) {
         for(int i=0;i<arrKal.length;i++)
             System.out.println(arrKal[i]+" => "+arrCon[i]);
     }
+ private static void tampilHasil(String convert) {
+        System.out.println("Kalimat Alay Angka : " + convert);
+    }
  
 }
 
